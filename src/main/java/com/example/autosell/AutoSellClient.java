@@ -16,7 +16,7 @@ public class AutoSellClient implements ClientModInitializer {
     private static final String COMMAND = "sellall inventory";
 
     // 20 ticks = 1 second, so 1200 ticks = 1 minute
-    private static final int INTERVAL_TICKS = 20 * 60;
+        private static final int INTERVAL_TICKS = 20 * 30;
 
     private static final KeyMapping.Category CATEGORY = KeyMapping.Category.register(
             Identifier.fromNamespaceAndPath("autosell", "main"));
